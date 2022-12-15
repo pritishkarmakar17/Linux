@@ -9,7 +9,7 @@
 - make directory  `mkdir`
 - make text file `touch output.txt`
 - concentrate files or read `cat output.txt` (`cat -A output.txt` to display text, `-nl` for number line )
-- write (overwrite) in text file `cat > output.txt`(only append ~~overwrite~~ in text file `cat >> output.txt`), finish with *Ctrl-d*
+- write (overwrite) in text file `cat > output.txt`(only append ~~overwrite~~ in text file `cat >> output.txt`), finish with <kbd>Ctrl</kbd> + <kbd>d</kbd>
 - word count in docs `wc -l combined.txt` (line count `-l`)
 - append or combine text file `cat file1.txt file2.txt > combinedfile.txt`
 - print something `echo <something>`
