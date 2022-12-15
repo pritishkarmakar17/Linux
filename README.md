@@ -10,13 +10,13 @@
 - make text file `touch output.txt`
 - concentrate files or read `cat output.txt` (`cat -A output.txt` to display text, `-nl` for number line )
 - write (overwrite) in text file `cat > output.txt`(only append ~~overwrite~~ in text file `cat >> output.txt`), finish with *Ctrl-d*
+- word count in docs `wc -l combined.txt` (line count `-l`)
 - append or combine text file `cat file1.txt file2.txt > combinedfile.txt`
 - print something `echo <something>`
 - move to dir1 `mv <filename> <to_directory>`
 - copy with a different name `cp output.txt renamed_output.txt`
 - remove `rmdir <folder>`
 - delete the whole directory and anything within it `rm -r <folder>` (recursively `-r`)
-- word count in docs `wc -l combined.txt` (line count `-l`)
 - brief description `file <filename>`
 - clear screen `clear`
 - command history `history`
