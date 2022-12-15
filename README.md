@@ -15,7 +15,7 @@
 - move to dir1 `mv <filename> <to_directory>`
 - copy with a different name `cp output.txt renamed_output.txt`
 - remove `rmdir <folder>`
-- delete the whole directory and anything within it `rm -r folder_6` (recursively `-r`)
+- delete the whole directory and anything within it `rm -r <folder>` (recursively `-r`)
 - word count in docs `wc -l combined.txt` (line count `-l`)
 - brief description `file <filename>`
 - clear screen `clear`
