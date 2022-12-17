@@ -1,7 +1,8 @@
 # Linux
 ## Terminal command line
 
-- change directories `cd`
+- change directories `cd /Folder_name`
+- change former directory `cd ..`
 - tree structure `tree`
 - list their contents `ls` (`-l` for the long format )
 - rename or move files  `mv`
