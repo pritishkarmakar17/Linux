@@ -1,30 +1,45 @@
 # Linux
 ## Linux command lines
+
+### **Directory management**
+
 - change directories `cd /dir_name`
 - go to previous directory `cd ..`
-- tree structure `tree`
-- list their contents `ls` (`-l` for the long format, `-a` for hidden file )
-- rename or move files  `mv`
-- find file or directory `find <name>`
 - print working directory `pwd`
-- make directory  `mkdir`
-- make text file `touch output.txt`
-- concentrate files or read `cat output.txt` (`cat -A output.txt` to display text, `-nl` for number line )
-- write (overwrite) in text file `cat > output.txt`(only append ~~overwrite~~ in text file `cat >> output.txt`), finish with <kbd>Ctrl</kbd> + <kbd>d</kbd>
-- append or combine text file `cat file1.txt file2.txt > combinedfile.txt`
-- print something `echo <something>`
-- move to a directory `mv <filename> <to_directory>`
-- copy with a different name `cp output.txt renamed_output.txt`
-- remove empty folder `rmdir <folder_name>`
-- delete the whole directory and anything within it `rm -r <folder_name>` (recursively `-r`)
+- make directory  `mkdir <dir_name>` ( or `mkdir -p <dir_1>/<dir_2>`)
+- remove empty directory `rmdir <dir_path>`
+- delete the whole directory and anything within it `rm -r <folde_name>`  (recursively `-r`)
+- tree structure of contents `tree`
+- list their contents `ls` (`-l` for the long format, `-a` for hidden file )
+- find file or directory `find <name>`
+
+### ******************************File management******************************
+
+- make file `touch output.<extension_name>` (e.g. `.py`, `.c`, `.cpp` etc)
+- copy to directory `cp <filename> <to_directory_path>`
+- move to directory `mv <filename> <to_directory_path>`
+- rename `mv <output> <renamed_output>`
 - word count in docs `wc -l combined.txt` (line count `-l`)
 - brief description `file <filename>`
-- clear screen `clear`
+- file search `locate <filename>`
+- view, open and edit files by nano `nano <file_name>`
+
+### ****************************Terminal codes****************************
+
+- print something `echo <something>`
+- clear terminal `clear`
 - command history `history`
 - user id `id`
+- username `whoami`
 - change the user password `passwd`
 - display tasks `top` or `htop`
 - shutdown or reboot `shutdown`
+- file download from website `wget <url>`
+- open cli map `mapscii`
+- generate text banner `figlet <text>'`
+
+### **package-management**
+
 - finding the package in the repository  `apt-cache search <search_string>`
 - install packages  `apt-get install <package_name>`
 - install package from package file `dpkg -i <package file>`
@@ -33,12 +48,11 @@
 - list of installed packages `dpkg -l`
 - package status `dpkg -s <package_name>`
 - package file identification `dpkg -S <file_name>`
-- file download from website `wget <url>`
-- file search `locate <filename>`
-- open cli map `mapscii`
-- generate text banner `figlet "<text>"`
+
+
 - ***tmux** essential codes:*
     - open tmux `tmux`
+    - tmux **<prefix>** changed **Ctrl + a** to **Ctrl + b** (default) in  ~/.tmux.config.
     - Pane management
         - create a new pane side-wise <kbd>Ctrl</kbd> + <kbd>b</kbd> + `%`
         - create a new pane below <kbd>Ctrl</kbd> + <kbd>b</kbd>  + `“`
